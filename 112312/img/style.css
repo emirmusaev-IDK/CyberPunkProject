@@ -18,7 +18,7 @@ body {
 .hero-block {
   width: 1920px;
   height: 1000px;
-  background-image: url(img/cpbg.jpg);
+  background-image: url(cpbg.jpg);
 }
 
 .logo {
@@ -55,7 +55,7 @@ body {
 .yellow {
   width: 624px;
   height: 369px;
-  background-image: url(img/Rectangle\ 59.png);
+  background-image: url(Rectangle\ 59.png);
   margin-top: 554px;
   margin-left: 976px;
   display: flex;
@@ -157,10 +157,10 @@ h1 {
 .sect-three {
   width: 1920px;
   height: 814px;
-  background-image: url(img/Rectangle\ 60.png);
+  background-image: url(Rectangle\ 60.png);
   margin-top: 0%;
   color: white;
-  transform: translateY(-10px);
+
 }
 
 .soed {
@@ -188,12 +188,4 @@ h1 {
 
 .pisanina-s-family {
   padding: 0 648px 0px 320px;
-}
-
-form {
-  margin: 98px 0 0 320px;
-}
-
-input {
-  
 }
