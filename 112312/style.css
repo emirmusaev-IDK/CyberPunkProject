@@ -5,8 +5,8 @@
 }
 
 .container {
- 
-  margin: 0 auto;
+  max-width: 1920px;
+ padding-left: 320px;
 
 }
 
@@ -265,9 +265,6 @@ input::placeholder {
 
 .cbox:checked::before {
   content: '✔';
-  position: absolute;
-  top: -8px;
-  left: -2px;
   font-size: 18px;
   color: #F8F200;
 }
@@ -278,7 +275,8 @@ input::placeholder {
 }
 
 .hz {
-  display: flex;flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .ps-bg {
@@ -293,8 +291,7 @@ input::placeholder {
 }
 
 .ps-imgs {
-  transform: translateX(820px) translateY(-475px);
-  position: absolute;
+  transform: translateX(820px) translateY(-435px);
 }
 
 .soed-two {
@@ -384,8 +381,6 @@ input::placeholder {
 }
 
 .vector-img-text-two  {
-  position: absolute;
-  margin-bottom: 25px;
   color: rgb(255, 255, 255);
   transform: translateX(40px) translateY(-120px);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -406,12 +401,17 @@ input::placeholder {
   color: #52BEDC;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 24px;
-  margin-top: 60px;
+  transform: translateY(-50px);
 }
 
 .frame {
   margin-top: 25px;
   margin-right: 65px;
+}
+
+.pc-xbox {
+  width: 320px;
+  transform: translateY(-50px);
 }
 
 .stadia {
@@ -477,8 +477,9 @@ input::placeholder {
   
   
   .container {
-    width: 320px;
-  
+    max-width: 320px;
+    padding: 0 12px;
+   
    
   }
   
@@ -494,7 +495,6 @@ input::placeholder {
    height: 50px;
    margin-top: 20px;
    margin-left: 60px;
-   position: absolute;
   }
   
   .yt-logo {
@@ -589,6 +589,11 @@ input::placeholder {
     width: 320px;
     margin-top: 170px;
   }
+
+  .pisanina-s-family {
+    margin: 0;
+    padding: 0;
+  }
   
   .pisanina {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -644,38 +649,37 @@ input::placeholder {
   
   .sect-three {
     width: 320px;
-    height: 1071x;
+    height: 900px;
     color: white;
-
+    padding-top: 150px;
   }
   
   .akcia {
     width: 62px;
     height: 62px;
-  
+    margin-left: 12px;
+    transform: translateY(-175px);
   }
   
   .iiw {
     font-family: 'archangelsk';
     color: white;
-    font-size: 62px;
-    transform: translateY(70px);
-    margin-left: 484px;
+    font-size: 30px;
+    margin-left: 12px;
+    
   }
   
   .pisanina-two {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
+    margin-right: 12px;
   }
   
   .pisanina-s-family {
-    padding: 0 648px 0px 320px;
+   width: 320px;
+   margin-left: 12px;
   }
-  
-  form {
-    margin: 0 12px 0 12px;
-  }
-  
+    
   input {
     width: 296px;
     height: 35px;
@@ -688,6 +692,8 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 0 12px;
+    transform: translateY(330px);
   }
   
   input::placeholder {
@@ -695,20 +701,17 @@ input::placeholder {
     transform: translateY(-5px);
   }
   
-  .tipo-underline {
-    color: rgb(170, 170, 170);
-    transform: translateY(-28px);
-  }
+
   
   .skrin {
-    width: 320px;
+    width: 296px;
     height: 120px;
+    color: gray;
     border: 3px dashed grey;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    flex-direction: column;
   }
   
   .skrintwo {
@@ -741,7 +744,6 @@ input::placeholder {
   
   .cbox:checked::before {
     content: '✔';
-    position: absolute;
     top: -8px;
     left: -2px;
     font-size: 18px;
@@ -761,7 +763,7 @@ input::placeholder {
   width: px;
   height: 0;
   padding-left: 0;
-  color: rgb(30, 255, 0);
+  color: rgb(255, 255, 255);
  }
   
   .ps-bg {
@@ -785,6 +787,8 @@ input::placeholder {
   
   .ps-imgs {
     margin-left: 12px;
+    transform: translateX(-20px) translateY(-450px);
+    margin-bottom: 30px;
   }
   
   .soed-two {
@@ -800,7 +804,8 @@ input::placeholder {
   
   .sect-four-img {
     margin-top: 70px;
-    margin-left: 320px;
+    margin-left: 12px;
+    width: 296px;
   }
   
   .sect-four-h2 {
@@ -809,6 +814,16 @@ input::placeholder {
      transform: translateY(-500px);
      font-size: 62px;
      font-family: archangelsk;
+  }
+
+  .yus::placeholder {
+    color: gray;
+    border-color: gray;
+  }
+
+  .yus-two::placeholder {
+    color: gray;
+    border-color: gray;
   }
   
   .pisanina-three {
@@ -824,20 +839,23 @@ input::placeholder {
   .vector-imgs {
     display: flex;
     flex-direction: column;
-    width: 32px;
+    width: 24px;
     gap: 15px;
-    margin-left: 976px;
+    margin-left: 12px;
     transform: translateY(-450px);
   }
   
   .vector-img-text {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 1025px;
+    margin-left: 50px;
     transform: translateY(-570px);
+    font-size: 16px;
+    line-height: 12px;
+    margin-top: 25px;
   }
   
   .other-text {
-    margin-bottom: 23px;
+   
   }
   
   .sect-five {
@@ -862,15 +880,20 @@ input::placeholder {
   }
   
   .hp-logo {
-    transform: translateX(-590px) translateY(110px);
+    margin-top: 25px;
+    margin-left: 12px;
+    width: 44px;
+    transform: translateX(1px) ;
   }
   
   .x-img {
-    transform: translateX(-560px) translateY(80px);
+    width: 50px;
+    transform: translateX(10px) translateY(-15px);
   }
   
   .cb-logo {
-    transform: translateX(-540px) translateY(110px);
+    width: 175px;
+    transform: translateX(15px) translateY(1px);
   }
   
   .vector-img-text-two  {
@@ -890,6 +913,7 @@ input::placeholder {
     flex-direction: column;
     width: 32px;
     gap: 15px;
+    margin: 0;
   }
   
   .sf-blue-text-two {
