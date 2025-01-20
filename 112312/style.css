@@ -380,6 +380,17 @@ input::placeholder {
   transform: translateX(-540px) translateY(110px);
 }
 
+.more {
+  width: 194px;
+  height: 59px;
+  transform: translateY(-500px) translateX(975px);
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #F8F200;
+  font-size: 18px;
+  border: none;
+}
+
 .vector-img-text-two  {
   color: rgb(255, 255, 255);
   transform: translateX(40px) translateY(-120px);
@@ -798,7 +809,7 @@ input::placeholder {
   .sect-four {
     background-image: url(img/Rectangle\ 593.png);
     width: 320px;
-    height: 676px;
+    height: 1020px;
     transform: translateY(-17px);
   }
   
@@ -809,10 +820,10 @@ input::placeholder {
   }
   
   .sect-four-h2 {
-     margin-top: 70px; 
-     margin-left: 976px;
+     margin-top: 530px; 
+     margin-left: 12px;
      transform: translateY(-500px);
-     font-size: 62px;
+     font-size: 30px;
      font-family: archangelsk;
   }
 
@@ -827,13 +838,13 @@ input::placeholder {
   }
   
   .pisanina-three {
-    width: 624px;
-    height: 125px;
+    width: 320px;
+    height: 245px;
     font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 976px;
-    transform: translateY(-480px);
-    line-height: 34px;
+    margin-left: 12px;
+    transform: translateY(-490px);
+    line-height: 32px;
   }
   
   .vector-imgs {
@@ -842,16 +853,27 @@ input::placeholder {
     width: 24px;
     gap: 15px;
     margin-left: 12px;
-    transform: translateY(-450px);
+    transform: translateY(-420px);
   }
   
   .vector-img-text {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 50px;
-    transform: translateY(-570px);
+    transform: translateY(-540px);
     font-size: 16px;
     line-height: 12px;
     margin-top: 25px;
+  }
+
+  .more {
+    width: 184px;
+    height: 60px;
+    transform: translateY(-500px) translateX(12px);
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F8F200;
+    font-size: 18px;
+    border: none;
   }
   
   .other-text {
@@ -860,29 +882,30 @@ input::placeholder {
   
   .sect-five {
     width: 320px;
-    height: 717px;
+    height: 785px;
     background-color: black;
     transform: translateY(-17px);
-    color: whit;
+    color: white;
   }
   .sect-five-h2 {
     font-family: 'archangelsk';
-    font-size: 62px;
-    margin-bottom: 24px;
+    font-size: 30px;
+    margin-bottom: 15px;
     color: white;
+    transform: translateY(-15px);
   }
   
   .sf-blue-text {
     color: #52BEDC;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
   
   .hp-logo {
     margin-top: 25px;
     margin-left: 12px;
-    width: 44px;
+    width: 40px;
     transform: translateX(1px) ;
   }
   
@@ -897,7 +920,7 @@ input::placeholder {
   }
   
   .vector-img-text-two  {
-    position: absolute;
+    width: 256px;
     margin-bottom: 25px;
     color: rgb(255, 255, 255);
     transform: translateX(40px) translateY(-120px);
@@ -905,7 +928,7 @@ input::placeholder {
   }
   
   .other-text-two {
-    margin-bottom: 25px;
+    margin-bottom: 13px;
   }
   
   .vector-imgs-two {
@@ -919,53 +942,88 @@ input::placeholder {
   .sf-blue-text-two {
     color: #52BEDC;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    margin-top: 60px;
+    font-size: 20px;
+    transform: translateY(-120px);
+  }
+
+  .pc-xbox {
+    width: 296px;
+    height: 180px;
+    display: flex;
+    transform: translateY(-120px);
   }
   
   .frame {
     margin-top: 25px;
-    margin-right: 65px;
+    width: 62px;
+    height: 35px;
+  }
+
+  .xbox {
+    width: 178px;
+    height: 35px;
+    margin-top: 25px;
   }
   
   .stadia {
-    margin-top: 38px;
-    margin-right: 65px;
+    width: 58px;
+    height: 50px;
+    margin-top: 80px;
+    transform: translateX(-298px) translateY(10px);
+  }
+
+  .playstation {
+    width: 168px;
+    height: 35px;
+    transform: translateX(-298px) translateY(95px);
   }
   
   .sect-five-text {
-    margin-left: 976px;
-    transform: translateY(-650px);
+    margin-left: 12px;
+    transform: translateY(50px);
   }
   
   .ftr {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 320px;
-    height: 140px;
+    height: 313px;
     background-color: rgb(255, 255, 255);
     transform: translateY(-17px);
+    padding-top: 40px;
   }
   
   .ftr-cb-logo {
-    margin-left: 320px;
+    width: 200px;
+    height: 50px;
+    margin-left: 0;
   }
   
   .CD-logo {
-    margin-left: 32px;
+    margin-left: 0;
+    padding-bottom: 40px;
   }
-  
+
   .ftr-text {
-    font-size: 18px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 320px; 
+    margin-left: 0;
+  }
+
+  .ftr-text-two {
+    margin-left: 0;
   }
   
-  .ftr-text-two {
-    font-size: 18px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 32px;
+  .ftr-ops {
+   width: 320px;
+   height: 110px;
+   background-color: rgb(224, 223, 223);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   font-size: 16px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   .ftr-two {
@@ -978,6 +1036,7 @@ input::placeholder {
     color: rgb(173, 173, 173);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transform: translateY(-17px);
+    font-size: 12px;
   }
   
 }
